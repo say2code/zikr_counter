@@ -1,0 +1,65 @@
+body {
+    background-image: url("zikr_bg.webp");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+    margin: 0; /* Remove default body margin for better responsiveness */
+    display: flex; /* Make the body a flex container */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.60); /* 75% transparent black background */
+    max-width: 80%;
+    padding: 20px; /* Add some padding for better spacing */
+    color: white; /* Set text color to white for better visibility */
+}
+
+/* Add media queries for responsive design */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%; /* Adjust max-width for smaller screens */
+    }
+}
+
+h1 {
+    font-size: 27px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer; /* Add cursor pointer for buttons */
+}
+
+#increment-btn {
+    background: goldenrod;
+}
+
+#save-btn {
+    background: grey;
+}
+
+#reset-btn{
+    background: #424242;
+}
+
+#save-el {
+    font-weight: bold;
+}
